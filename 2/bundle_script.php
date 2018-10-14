@@ -19,7 +19,6 @@
 	<script src="../aset/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
 	<!-- page script -->
     <script>
-      $(function () {	
 		// Daterange Picker
 		$('#Tanggal_Lahir').daterangepicker({
 			singleDatePicker: true,
@@ -27,62 +26,38 @@
 			format: 'YYYY-MM-DD'
 		});
 		
-		  // Data Table
+		// Data Table
         $("#data").dataTable({
 			scrollX: true
-		});		
-      });
-    </script>
-	
-	<!-- Date Time Picker -->
-	<script>
-		$(function (){
-			$('#Jam_Mulai').datetimepicker({
-				format: 'HH:mm'
-			});
-			
-			$('#Jam_Selesai').datetimepicker({
-				format: 'HH:mm'
-			});
 		});
-	</script>
 	
-	<!-- Javascript Edit--> 
-	<script type="text/javascript">
-		$(document).ready(function () {
-			
-		// Jadwal
-		$(".open_modal").click(function(e) {
-			var m = $(this).attr("id");
-				$.ajax({
-					url: "jadwal_modal_edit.php",
-					type: "GET",
-					data : {Id_Jadwal: m,},
-					success: function (ajaxData){
-					$("#ModalEditJadwal").html(ajaxData);
-					$("#ModalEditJadwal").modal('show',{backdrop: 'true'});
-					}
-				});
-			});
+		//Date Time Picker 
+		$('#Jam_Mulai').datetimepicker({
+			format: 'HH:mm'
+		});
+
+		$('#Jam_Selesai').datetimepicker({
+			format: 'HH:mm'
+		});
 		
-		// Nilai
-		$(".open_modal").click(function(e) {
-			var m = $(this).attr("id");
-				$.ajax({
-					url: "nilai_modal_edit.php",
-					type: "GET",
-					data : {Id_Nilai: m,},
-					success: function (ajaxData){
-					$("#ModalEditNilai").html(ajaxData);
-					$("#ModalEditNilai").modal('show',{backdrop: 'true'});
-					}
-				});
+		//edit
+		function edit_form(data, url, key, modal){
+			var id = $(data).attr('id');
+			var param = {};
+			param[key] = id;
+
+			$.ajax({
+				url: url+".php",
+				type: "GET",
+				data: param,
+				success: function(response){
+					$(modal).html(response);
+					$(modal).modal('show');
+				}
 			});
-		});
-	</script>
-	
-	<!-- Javascript Delete -->
-	<script>
+		} 
+
+		//delete
 		function confirm_delete(delete_url){
 			$("#modal_delete").modal('show', {backdrop: 'static'});
 			document.getElementById('delete_link').setAttribute('href', delete_url);

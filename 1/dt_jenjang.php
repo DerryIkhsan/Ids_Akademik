@@ -18,8 +18,8 @@
 									<td>$jenjang[Kode_Jenjang]</td>
 									<td>$jenjang[Nama_Jenjang]</td>
 									<td>
-										<a href='#' class='open_modal' id='$jenjang[Kode_Jenjang]'>Edit</a> |
-										<a href='#' onClick='confirm_delete(\"jenjang_delete.php?Kode_Jenjang=$jenjang[Kode_Jenjang]\")'>Delete</a>
+										<a href='#' onclick='edit_form(this, ".'"jenjang_modal_edit"'.", ".'"Kode_Jenjang"'.", ".'"#ModalEditJenjang"'.")' id='$jenjang[Kode_Jenjang]'>Edit</a> |
+										<a href='#' onclick='confirm_delete(\"jenjang_delete.php?Kode_Jenjang=$jenjang[Kode_Jenjang]\")'>Delete</a>
 									</td>
 								</tr>";
 						}

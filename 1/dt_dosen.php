@@ -35,8 +35,8 @@
 									<td>$dosen[No_Telp]</td>
 									<td>$dosen[Alamat]</td>
 									<td>
-										<a href='#' class='open_modal' id='$dosen[NIP]'>Edit</a> |
-										<a href='#' onClick='confirm_delete(\"dosen_delete.php?NIP=$dosen[NIP]\")'>Delete</a>
+										<a href='#' onclick='edit_form(this, ".'"dosen_modal_edit"'.", ".'"NIP"'.", ".'"#ModalEditDosen"'.")' id='$dosen[NIP]'>Edit</a> |
+										<a href='#' onclick='confirm_delete(\"dosen_delete.php?NIP=$dosen[NIP]\")'>Delete</a>
 									</td>
 								</tr>";
 						}

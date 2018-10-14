@@ -31,8 +31,8 @@
 									<td>$jadwal[Hari]</td>
 									<td>$jadwal[Jam]</td>
 									<td>
-										<a href='#' class='open_modal' id='$jadwal[Id_Jadwal]'>Edit</a> |
-										<a href='#' onClick='confirm_delete(\"jadwal_delete.php?Id_Jadwal=$jadwal[Id_Jadwal]\")'>Delete</a>
+										<a href='#' onclick='edit_form(this, ".'"jadwal_modal_edit"'.", ".'"Id_Jadwal"'.", ".'"#ModalEditJadwal"'.")' id='$jadwal[Id_Jadwal]'>Edit</a> |
+										<a href='#' onclick='confirm_delete(\"jadwal_delete.php?Id_Jadwal=$jadwal[Id_Jadwal]\")'>Delete</a>
 									</td>
 								</tr>";
 						}

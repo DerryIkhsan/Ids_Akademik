@@ -38,7 +38,7 @@
 									<td>$mhs[Alamat]</td>
 									<td>$mhs[Nama_Jurusan]</td>
 									<td>
-										<a href='#' class='open_modal' id='$mhs[NIM]'>Edit</a> |
+										<a href='#' onclick='edit_form(this, ".'"mahasiswa_modal_edit"'.", ".'"NIM"'.", ".'"#ModalEditMahasiswa"'.")' id='$mhs[NIM]'>Edit</a> |
 										<a href='#' onClick='confirm_delete(\"mahasiswa_delete.php?NIM=$mhs[NIM]\")'>Delete</a>
 									</td>
 								</tr>";

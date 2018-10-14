@@ -18,8 +18,8 @@
 									<td>$ruangan[Kode_Ruangan]</td>
 									<td>$ruangan[Nama_Ruangan]</td>
 									<td>
-										<a href='#' class='open_modal' id='$ruangan[Kode_Ruangan]'>Edit</a> |
-										<a href='#' onClick='confirm_delete(\"ruangan_delete.php?Kode_Ruangan=$ruangan[Kode_Ruangan]\")'>Delete</a>
+										<a href='#' onclick='edit_form(this, ".'"ruangan_modal_edit"'.",  ".'"Kode_Ruangan"'.", ".'"#ModalEditRuangan"'.");' id='$ruangan[Kode_Ruangan]'>Edit</a> |
+										<a href='#' onclick='confirm_delete(\"ruangan_delete.php?Kode_Ruangan=$ruangan[Kode_Ruangan]\")'>Delete</a>
 									</td>
 								</tr>";
 						}

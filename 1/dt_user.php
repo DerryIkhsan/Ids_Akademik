@@ -24,7 +24,7 @@
 										<a href='#'>Disable</a>";
 								}else{
 									echo "
-										<a href='#' onClick='confirm_delete(\"user_delete.php?Id_User=$user[Id_User]\")'>Delete</a>";
+										<a href='#' onclick='confirm_delete(\"user_delete.php?Id_User=$user[Id_User]\")'>Delete</a>";
 								}
 							echo
 								"

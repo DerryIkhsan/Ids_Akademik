@@ -20,8 +20,8 @@
 									<td>$jurusan[Nama_Jurusan]</td>
 									<td>$jurusan[Nama_Jenjang]</td>
 									<td>
-										<a href='#' class='open_modal' id='$jurusan[Kode_Jurusan]'>Edit</a> |
-										<a href='#' onClick='confirm_delete(\"jurusan_delete.php?Kode_Jurusan=$jurusan[Kode_Jurusan]\")'>Delete</a>
+										<a href='#' onclick='edit_form(this, ".'"jurusan_modal_edit"'.", ".'"Kode_Jurusan"'.", ".'"#ModalEditJurusan"'.")' id='$jurusan[Kode_Jurusan]'>Edit</a> |
+										<a href='#' onclick='confirm_delete(\"jurusan_delete.php?Kode_Jurusan=$jurusan[Kode_Jurusan]\")'>Delete</a>
 									</td>
 								</tr>";
 						}

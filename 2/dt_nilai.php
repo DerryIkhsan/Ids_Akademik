@@ -22,8 +22,8 @@
 									<td>$nilai[Nama_Matakuliah]</td>
 									<td>$nilai[Nilai]</td>
 									<td>
-										<a href='#' class='open_modal' id='$nilai[Id_Nilai]'>Edit</a> |
-										<a href='#' onClick='confirm_delete(\"nilai_delete.php?Id_Nilai=$nilai[Id_Nilai]\")'>Delete</a>
+										<a href='#' onclick='edit_form(this, ".'"nilai_modal_edit"'.", ".'"Id_Nilai"'.", ".'"#ModalEditNilai"'.")' id='$nilai[Id_Nilai]'>Edit</a> |
+										<a href='#' onclick='confirm_delete(\"nilai_delete.php?Id_Nilai=$nilai[Id_Nilai]\")'>Delete</a>
 									</td>
 								</tr>";
 						}

@@ -219,7 +219,7 @@ while($jadwal = mysqli_fetch_array($queryjadwal)){
 							</div>
 							<div class="modal-footer">
 								<button class="btn btn-success" type="submit">
-									Add
+									Save
 								</button>
 								<button type="reset" class="btn btn-danger"  data-dismiss="modal" aria-hidden="true">
 									Cancel
