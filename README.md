@@ -1,4 +1,4 @@
-# Ids_Akademik
+# IDS Akademik By Derry Ikhsan
 
 Untuk donatur dapat transfer melalui BCA :
 * No. Rek : 1760032251
