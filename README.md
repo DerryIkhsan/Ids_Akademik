@@ -1,24 +1,15 @@
 # Ids_Akademik
 
-SEMOGA DENGAN APLIKASI YANG SUDAH DI UNDUH DAPAT MEMBANTU DALAM 
-PEMBELAJARAN ANDA. DAN SAYA HARAP ANDA DAPAT 
-BERPARTISIPASI MENJADI DONATUR UNTUK MENAMBAH KEPERLUAN 
-BIAYA KULIAH DAN AGAR DAPAT TERUS BERKEMBANG DAN BERKREATIFITAS.
-DAN UNTUK RENCANA SELANJUTNYA JIKA ADA WAKTU SENGGANG AKAN MENGGUNAKAN
-FRAMEWORK.
+Untuk donatur dapat transfer melalui BCA :
+* No. Rek : 1760032251
+* A.n : Derry Ikhsan Sholahuddin
 
-UNTUK DONATUR BISA TRANSFER KE BANK BCA DENGAN :
-* NO REK. 	: 1760032251
-* A.N		: DERRY IKHSAN SHOLAHUDDIN
+Dan untuk pembuatan aplikasi web bisa kontak melalui 
+https://www.facebook.com/derryikhsan.sholahuddin1
 
-TERIMA KASIH ATAS DUKUNGAN ANDA YANG TELAH BERPARTISIPASI MENJADI 
-DONATUR.
+Terima kasih atas dukungan anda yang telah berpartisipasi menjadi donatur.
 
-REGARDS,
+By Derry Ikhsan Sholahuddin
 
-
-
-DERRY IKHSAN SHOLAHUDDIN
-
-USERNAME	= admin
-PASSWORD	= admin 
+Username	= admin
+Password	= admin 
