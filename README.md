@@ -5,7 +5,8 @@ Untuk donatur dapat transfer melalui BCA :
 * A.n : Derry Ikhsan Sholahuddin
 
 Dan untuk pembuatan aplikasi web bisa kontak melalui 
-https://www.facebook.com/derryikhsan.sholahuddin1
+whatsapp : 0852-9488-2253
+messanger : https://www.facebook.com/derryikhsan.sholahuddin1
 
 Terima kasih atas dukungan anda yang telah berpartisipasi menjadi donatur.
 
