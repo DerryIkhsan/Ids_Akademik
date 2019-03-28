@@ -1,7 +1,6 @@
 # IDS Akademik By Derry Ikhsan Sholahuddin
 
 Menerima jasa pembuatan aplikasi web bisa kontak melalui 
-# whatsapp : 0852-9488-2253
 messanger : https://www.facebook.com/derryikhsan.sholahuddin1
 
 Untuk donatur dapat transfer melalui BCA :
